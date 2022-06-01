@@ -1,30 +1,37 @@
-# Supply chain & data auditing
+# Supply Chain
+
 
 ## Project Write Up (UML)
-
+**Activity Diagram**    
 ![truffle test](images/ActivityDiagram.png)
 
+**Sequence Diagram**    
 ![truffle test](images/SequenceDiagram.png)
 
+**State Diagram**    
 ![truffle test](images/StateDiagram.png)
 
+**Data Model Diagram**    
 ![truffle test](images/DataModelDiagram.png)
 
 ## Project Write Up (Libraries)
-Used openzeppelin-solidity Roles library for access controls for the different actors in the supply chain.
+Used openzeppelin-solidity Roles library for access controls for the different actors in the supply chain.  
+Used @truffle/hdwallet-provider as a convenient and easy to configure network connection to ethereum through infura.io (or any other compatible provider).
+For example the HDWallet provider add some features required by Truffle that are not available with infura like event filtering and transaction signing.
+Created a project at infura.io to house the contract on Rinkeby
 
 ## Project Write Up (IPFS)
 Did not have enough time to implement Interplanetary File System to store images
 
 ## Project Write Up (General Write Up)
 
-After deployement to Rinkeby you must modify the /build/SupplyChain.json to include the contract address and Transaction Hash so that the node webpage will interact with contract on rinkeby.
+After deployement to Rinkeby you must modify the /build/SupplyChain.json to include the contract address and Transaction Hash so that the node webpage will interact with contract on rinkeby.    
 
-Rinkeby Contract Address: https://rinkeby.etherscan.io/address/0xd9eb67569a5078109b674a84b9b0d5e756f5b474
+Rinkeby Contract Address: https://rinkeby.etherscan.io/address/0xd9eb67569a5078109b674a84b9b0d5e756f5b474    
 
-node v14.19.0
-Truffle v4.1.14 (core: 4.1.14)
-Solidity v0.4.24 (solc-js)
+node v14.19.0  
+Truffle v4.1.14 (core: 4.1.14)  
+Solidity v0.4.24 (solc-js)  
 
 ## MIGRATION OUTPUT
 truffle migrate --network rinkeby --reset
