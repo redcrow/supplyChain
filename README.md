@@ -29,7 +29,7 @@ After deployement to Rinkeby you must modify the /build/SupplyChain.json to incl
 
 Rinkeby Contract Address: https://rinkeby.etherscan.io/address/0xd9eb67569a5078109b674a84b9b0d5e756f5b474    
 
-node v14.19.0  
+Node v14.19.0  
 Truffle v4.1.14 (core: 4.1.14)  
 Solidity v0.4.24 (solc-js)  
 
@@ -74,7 +74,7 @@ Saving successful migration to network...
   ... 0xa52edb5c94dbfc6196fb02ededb033a6dd3b3a85ad9749e49ef67abe9ad9a3c7
 Saving artifacts...
 
-## DEFAULT FROM CLONE
+## DEFAULT INFO FROM UDACITY CLONE
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
 The DApp User Interface when running should look like...
